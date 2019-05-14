@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validations</title>
+    </head>
+    <body>
+        <form action="/" onsubmit="return validate()">
+            <label>User Name</label>
+            <input type="text" name="Uname" placeholder="Enter User Name" class="val" ><br>
+            <label>Password</label>
+            <input type="password" name="Upwd" placeholder="Enter Password" id="password" required><br>
+            <label for="cP">Confirm Password</label>
+            <input type="password" name="Cpwd" placeholder="Enter Confirm Pass" id="confirm_password" required><br>
+
+            <button type="submit">Confirm</button>
+        </form>
+        <script>
+            function validate(){
+                if (document.getElementsByClassName("val").value == "") {
+                    alert("Please frim Name");
+                    return false;
+                }
+            }
+        </script>
+    </body>
+</html>
