@@ -1,0 +1,13 @@
+<div align="center">
+  <fieldset>
+    <legend>Login</legend>
+    <label>Uname</label>
+    <input type="text" [(ngModel)]="uname">
+    <br><br>
+    <label>Password</label>
+    <input type="password" [(ngModel)]="upwd">
+    <br><br>
+    <button (click)="login({'uname':uname,'upwd':upwd})">Login</button>
+  </fieldset>
+</div>
+
