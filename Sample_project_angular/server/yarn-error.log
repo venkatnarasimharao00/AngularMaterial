@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\India\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express mysqul body-parser jwt-simple cors --save
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\India\AppData\Local\Microsoft\WindowsApps;C:\Users\India\AppData\Roaming\npm;C:\Users\India\AppData\Local\Programs\Microsoft VS Code\bin;
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mysqul: Not found
+      at Request.params.callback [as _callback] (C:\Users\India\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:65894:18)
+      at Request.self.callback (C:\Users\India\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129018:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Users\India\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129990:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Users\India\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129912:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
